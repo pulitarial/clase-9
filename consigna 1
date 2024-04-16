@@ -1,0 +1,18 @@
+//consigna 1//
+#include <stdio.h>
+#include <string.h>
+
+int a=0;
+const int b=18;
+const int c=25;
+
+int main()
+
+{
+    printf("ingrese su edad\n");
+    scanf("%d", &a);
+        if (a> b && a<c)
+            printf("la edad introducida esta en el rango entre %d y %d\n", b,c);
+        else printf("edad fuera de rango\n");
+    return 0;
+}
