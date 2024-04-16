@@ -1,0 +1,25 @@
+//consigna 2//
+#include <stdio.h>
+#include <string.h>
+
+int a=0;
+int b=0;
+int c=0;
+int d=0;
+
+int main()
+
+{
+    printf("ingrese el numero a\n");
+    scanf("%d", &a);
+    printf("ingrese el numero b\n");
+    scanf("%d", &b);
+    printf("ingrese el numero c\n");
+    scanf("%d", &c);
+    printf("ahora ingrese el numero d a comparar\n");
+    scanf("%d", &d);
+        if ((a==d)||(b==d)||(c==d))
+            printf("el ultimo valor ingresado es igual a uno de los anteriores");
+        else printf("el ultimo valor ingresado es diferente al resto");
+    return 0;
+}
