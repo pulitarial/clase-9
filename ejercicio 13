@@ -1,0 +1,32 @@
+//ejercicio 13//
+#include <stdio.h>
+#include <string.h>
+
+int a=0;
+int b=0;
+int opc=0;
+int resul=0;
+
+int main()
+
+{
+    printf("ingrese el numero 1\n");
+    scanf("%d", &a);
+    printf("ingrese el numero 2\n");
+    scanf("%d", &b);
+    printf("que operacion quiere realizar?\n1 para sumar\n2 para restar\n");
+    scanf("%d", &opc);
+    switch(opc)    
+        {case 1: 
+        resul=a+b;
+        printf("el resultado de %d + %d es igual a %d\n", a,b,resul);
+        break;
+        case 2:
+        resul=a-b;
+        printf("el resultado de %d - %d es igual a %d\n", a,b,resul);
+        break;
+        default: 
+        printf("opcion invalida\n");
+        }
+    return 0;
+}
